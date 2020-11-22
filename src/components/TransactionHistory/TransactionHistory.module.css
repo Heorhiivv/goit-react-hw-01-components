@@ -1,0 +1,23 @@
+table {
+  border-collapse:collapse;
+}
+td,th {
+  padding: 15px;
+}
+.transaction_history {
+  font-size: 24px;
+  width: 568px;
+  margin: 0 auto;
+  padding: 70px;
+}
+.thead {
+  background-color: skyblue;
+  color: white;
+}
+.tbody {
+  text-align: center;
+  color: gray;
+}
+.row:nth-child(even) {
+  background-color: lightgray;
+}
